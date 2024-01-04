@@ -1,0 +1,123 @@
+*{
+    margin :0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673697239936-c2599b0b0498?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav{
+position: absolute;
+display: flex;
+padding: 20px 40px;
+color: white;
+}
+#links{
+display: flex;
+margin-left: 630px;
+gap: 80px;
+}
+#links a{
+text-decoration: none;
+color: white;
+font-size: 15px;
+font-weight: 600;
+}
+#left{
+    padding: 0px 80px;
+    gap: 30px;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.327);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#left .place{
+    
+    width: 100%;
+    color: white;
+    
+}
+#left .place:nth-child(2) h3{
+    white-space: nowrap;
+    font-size: 50px;
+    opacity: 1;
+    border-bottom: 2px solid white;
+}
+.place h3{
+    opacity: .8;
+    display: inline;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+}
+.place h4{
+    opacity: .8;
+    font-size: 15px;
+   white-space: nowrap;
+   font-weight: 400;
+    
+}
+
+#right{
+    width: 75%;
+    height: 100%;
+}
+#right #text{
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    color: white;
+}
+#text h2{
+    font-size: 85px;
+    font-weight: 500;
+}
+#text h4{
+    line-height: 1;
+    font-size: 20px;
+    opacity: .8;
+    
+}
+#inp{
+    color: white;
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    gap:8px;
+    font-size: 15px;
+}
+#inp i{
+    font-weight: 800;
+}
+input{
+    width:50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+input::placeholder{
+    opacity: .8;
+    font-size: 10px;
+    color: white;
+}
+#right small{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+}
